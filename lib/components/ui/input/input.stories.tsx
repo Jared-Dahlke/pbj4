@@ -1,32 +1,25 @@
-import React from "react";
-import { Meta } from "@storybook/react/types-6-0";
-import { Button, ButtonProps } from "../lib/components/ui/button/index";
+import React from 'react';
+import { Meta } from '@storybook/react/types-6-0';
+import { Input, InputProps } from '.';
 
 export default {
-  title: "Components/Button",
-  component: Button,
+  title: 'Components/Input',
+  component: Input,
   argTypes: {
-    variant: {
-      control: { type: "radio" },
-    },
-    size: {
-      control: { type: "radio" },
-    },
-    isPill: {
-      control: { type: "boolean" },
-    },
+    // variant: {
+    //   control: { type: 'radio' },
+    // },
+    // size: {
+    //   control: { type: 'radio' },
+    // },
   },
 } as Meta;
 
-export const Component = (args: ButtonProps) => (
-  <Button {...args}>Default</Button>
-);
+export const Component = (args: InputProps) => <Input {...args} />;
 
-Component.args = {
-  variant: "default",
-  size: "default",
-  isPill: false,
-};
+// Component.args = {
+//   variant: 'default',
+// };
 
 // export const Variants = (args: ButtonProps) => (
 //   <div className="flex flex-col space-y-4 mt-8">
