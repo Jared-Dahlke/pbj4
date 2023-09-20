@@ -1,5 +1,5 @@
 /** @type {import('tailwindcss').Config} */
-export default {
+module.exports = {
   // all ts and tsx files
   content: ["./lib/**/*.ts", "./lib/**/*.tsx"],
   theme: {

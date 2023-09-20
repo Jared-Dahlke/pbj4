@@ -2,7 +2,7 @@
   "name": "pbandj-withtailwind",
   "license": "MIT",
   "version": "0.0.1",
-  "type": "module",
+  "type": "commonjs",
   "main": "dist/index.cjs",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
