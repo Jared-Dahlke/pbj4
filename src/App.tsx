@@ -4,9 +4,9 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <div>
+      <div style={{ display: "flex" }}>
         <a href="https://vitejs.dev" target="_blank">
-          <img src="/vite.svg" className="logo" alt="Vite logo" width="100px" />
+          <img src="/vite.svg" className="logo" alt="Vite logo" width="150px" />
         </a>
         <a href="https://github.com/moishinetzer/pbandj" target="_blank">
           <img
@@ -21,7 +21,7 @@ function App() {
             src="/react.svg"
             className="logo react"
             alt="React logo"
-            width="100px"
+            width="150px"
           />
         </a>
       </div>
