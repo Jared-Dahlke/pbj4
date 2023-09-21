@@ -1,3 +1,4 @@
+import '../lib/tailwind.css'
 import { themes } from '@storybook/theming';
 
 export const parameters = {
