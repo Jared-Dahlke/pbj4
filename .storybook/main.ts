@@ -9,12 +9,21 @@ export default {
     "@storybook/addon-links",
     "@storybook/addon-essentials",
     "@storybook/addon-interactions",
+    "@storybook/addon-styling",
+    "@storybook/addon-mdx-gfm",
+    "storybook-dark-mode",
   ],
-  framework: {
-    name: "@storybook/react-vite",
-    options: {},
-  },
+
+  // framework: {
+  //   name: "@storybook/nextjs",
+  //   options: {},
+  // },
   docs: {
-    autodocs: "tag",
+    autodocs: true,
+  },
+
+  framework: {
+    name: "@storybook/nextjs",
+    options: {},
   },
 };
